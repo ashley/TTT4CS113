@@ -43,7 +43,9 @@ class TTT_stubs{
    }
 
    static char togglePlayer(char s){
-      return('Z');
+      if (s == 'X') {
+         s = 'O';
+      return('s');
    }
    static int getGameState(char [] b){
       return(0);  
